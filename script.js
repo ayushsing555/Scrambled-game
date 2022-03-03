@@ -59,9 +59,6 @@ function GameStart(a)
         else
               input.style.color="red";
     });
-    setInterval(() => {
-        timefunction(sum);
-    },1000)
 }
 btn1.addEventListener("click",()=>{
     location.reload();
@@ -73,7 +70,7 @@ btn1.addEventListener("click",()=>{
    if(Seconds<1&& Minutes>0)
    {
        Seconds=59;
-       Minutes--;
+       Minutes--
    }
    else if(Seconds<1&&Minutes==0&&sum<10)
          {
