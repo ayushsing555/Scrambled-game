@@ -8,9 +8,18 @@
     align-items: center;
     background-color: rgb(255, 133, 133);
     width: 600px;
-    margin-left:460px;
-    height: 600px;
+    height: 800px;
     padding-bottom:30px ;
+}
+.full-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    margin-top: 2px;
+    width: 500px;
+    height:830px;
 }
 *{
     font-family: 'Josefin Sans', sans-serif;
@@ -36,7 +45,7 @@ label{
 }
 input[type=radio]
 {
-    width: 50px;
+    width: 30px;
     height: 30px;
 }
 .score{
@@ -47,6 +56,7 @@ input[type=radio]
 }
 input[type=text]
 {
+    display: none;
     height: 30px;
     font-size: 20px;
     border: none;
@@ -76,6 +86,10 @@ button:hover{
     cursor: pointer;
     background-color: brown;
 }
+input[type=radio]:hover{
+    cursor: pointer;
+}
+ 
 #btn1{
     font-size: 20px;
     width: 120px;
